@@ -1,3 +1,4 @@
 -Ilibft/include
 -Iinclude/
 -I/usr/include/X11
+-I/minilib/minilib-linux

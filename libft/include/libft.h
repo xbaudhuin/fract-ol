@@ -6,14 +6,13 @@
 /*   By: xabaudhu <xabaudhu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/17 15:35:44 by xabaudhu          #+#    #+#             */
-/*   Updated: 2023/12/13 16:24:22 by xabaudhu         ###   ########.fr       */
+/*   Updated: 2024/01/16 17:08:38 by xabaudhu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-#include <stdio.h>
 # include <stdlib.h>
 # include <stddef.h>
 # include <unistd.h>

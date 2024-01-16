@@ -6,7 +6,7 @@
 /*   By: xabaudhu <xabaudhu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 16:20:31 by xabaudhu          #+#    #+#             */
-/*   Updated: 2023/12/09 00:18:21 by xabaudhu         ###   ########.fr       */
+/*   Updated: 2024/01/16 17:11:25 by xabaudhu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ ssize_t	ft_putendl_fd(char *s, int fd)
 
 	if (s && fd)
 	{
-		ret  = write(fd, s, ft_strlen(s));
+		ret = write(fd, s, ft_strlen(s));
 		ret += write(fd, "\n", 1);
 		return (ret);
 	}
